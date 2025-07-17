@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gragra Store - Toko Modern Minimalis</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="container header-content">
+            <h1>Gragra Store</h1>
+            <nav>
+                <ul>
+                    <li><a href="#">Beranda</a></li>
+                    <li><a href="#">Produk</a></li>
+                    <li><a href="#">Tentang</a></li>
+                    <li><a href="#">Kontak</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main class="container">
+        <section class="hero">
+            <div class="hero-main-content">
+                <h2>Elegansi dalam Kesederhanaan</h2>
+                <p>Koleksi pilihan yang dirancang untuk memperkaya gaya hidup modern Anda.</p>
+            </div>
+
+            <div class="slideshow-container">
+                <div class="mySlides fade">
+                    <img src="images/2.png" alt="Produk Pilihan 1">
+                </div>
+
+                <div class="mySlides fade">
+                    <img src="images/3.png" alt="Produk Pilihan 2">
+                </div>
+
+                <div class="mySlides fade">
+                    <img src="images/1.png" alt="Produk Pilihan 3">
+                </div>
+
+                <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+                <div class="slide-dots">
+                    <span class="dot" onclick="currentSlide(1)"></span>
+                    <span class="dot" onclick="currentSlide(2)"></span>
+                    <span class="dot" onclick="currentSlide(3)"></span>
+                </div>
+            </div>
+        </section>
+
+        <section id="products" class="products-grid">
+            <div class="product-card" data-product-id="1">
+                <div class="product-image-container">
+                    <img src="images/p (1).webp" alt="Vase Keramik Geometris">
+                </div>
+                <div class="product-info">
+                    <div class="product-title-row">
+                        <h3>Trondheim Celana Denim Regular Fit Jeans Diego Tint Bioblitz</h3>
+                    </div>
+                    <p class="product-description" data-product-desc="Vase keramik modern dengan desain geometris minimalis, cocok untuk dekorasi interior modern dan menambahkan sentuhan artistik pada ruangan Anda.">Basic, Retro, Street Style, Tailored, Thermal.</p>
+                    <div class="product-meta">
+                        <p class="price" data-product-price="180000">Rp 180.000</p>
+                        <p class="sold-count">0 Terjual</p>
+                    </div>
+                    <button class="buy-btn" data-product-img="images/p (1).webp">Beli Sekarang</button>
+                </div>
+            </div>
+
+            <div class="product-card" data-product-id="2">
+                <div class="product-image-container">
+                    <img src="images/p (2).webp" alt="Lilin Aromaterapi Kayu">
+                </div>
+                <div class="product-info">
+                    <div class="product-title-row">
+                        <h3>Trucker Hat | REDWOLD | Black | Bettermine</h3>
+                    </div>
+                    <p class="product-description" data-product-desc="Lilin aromaterapi dengan wewangian alami yang menenangkan, dikemas dalam wadah kayu estetik yang bisa digunakan kembali.">Tracker hat 
+
+Material  Catton Twill </p>
+                    <div class="product-meta">
+                        <p class="price" data-product-price="95000">Rp 95.000</p>
+                        <p class="sold-count">0 Terjual</p>
+                    </div>
+                    <button class="buy-btn" data-product-img="images/p (2).webp">Beli Sekarang</button>
+                </div>
+            </div>
+
+            <div class="product-card" data-product-id="3">
+                <div class="product-image-container">
+                    <img src="images/p (3).webp" alt="Buku Catatan Linen">
+                </div>
+                <div class="product-info">
+                    <div class="product-title-row">
+                        <h3>Exhale Apparel Boxyfit Longsleeve Laverage</h3>
+                    </div>
+                    <p class="product-description" data-product-desc="Buku catatan premium dengan sampul linen berkualitas tinggi, ideal untuk jurnal, sketsa, dan mencatat ide-ide brilian Anda.">Kaos Lengan Panjang Streetwear “Laverage”.</p>
+                    <div class="product-meta">
+                        <p class="price" data-product-price="60000">Rp 60.000</p>
+                        <p class="sold-count">0 Terjual</p>
+                    </div>
+                    <button class="buy-btn" data-product-img="images/p (3).webp">Beli Sekarang</button>
+                </div>
+            </div>
+
+            <div class="product-card" data-product-id="4">
+                <div class="product-image-container">
+                    <img src="images/p (4).webp" alt="Mug Kopi Desain">
+                </div>
+                <div class="product-info">
+                    <div class="product-title-row">
+                        <h3>Samee Jersey Walk the talk Over Size</h3>
+                    </div>
+                    <p class="product-description" data-product-desc="Mug kopi keramik dengan desain unik dan pegangan ergonomis, sempurna untuk menikmati kopi atau teh di pagi hari.">
+Basic, Street Style, Korean.</p>
+                    <div class="product-meta">
+                        <p class="price" data-product-price="120000">Rp 120.000</p>
+                        <p class="sold-count">0 Terjual</p>
+                    </div>
+                    <button class="buy-btn" data-product-img="images/p (4).webp">Beli Sekarang</button>
+                </div>
+            </div>
+
+            <div class="product-card" data-product-id="5">
+                <div class="product-image-container">
+                    <img src="images/p (5).webp" alt="Stand Ponsel Kayu">
+                </div>
+                <div class="product-info">
+                    <div class="product-title-row">
+                        <h3>VIBES APPAREL | Marks Baggy Pants | Loose Fit | Celana Panjang</h3>
+                    </div>
+                    <p class="product-description" data-product-desc="Stand ponsel minimalis dari kayu solid, menjaga meja tetap rapi dan ponsel stabil saat menonton video atau video call.">Celana panjang nylon dengan aksen garis yang ringan di gunakan dan sangat nyaman.</p>
+                    <div class="product-meta">
+                        <p class="price" data-product-price="70000">Rp 70.000</p>
+                        <p class="sold-count">0 Terjual</p>
+                    </div>
+                    <button class="buy-btn" data-product-img="images/p (5).webp">Beli Sekarang</button>
+                </div>
+            </div>
+
+            <div class="product-card" data-product-id="6">
+                <div class="product-image-container">
+                    <img src="images/p (6).webp" alt="Diffuser Ultrasonik">
+                </div>
+                <div class="product-info">
+                    <div class="product-title-row">
+                        <h3>HBD - Sepatu Sneakers Wanita korean style original fashion casual Classic Retro Racing shoes 105</h3>
+                    </div>
+                    <p class="product-description" data-product-desc="Diffuser aromaterapi dengan teknologi ultrasonik yang hening, menjaga kualitas udara dan menyebarkan aroma esensial favorit Anda.">Happy Birds Day (Fly Your Style.).</p>
+                    <div class="product-meta">
+                        <p class="price" data-product-price="250000">Rp 250.000</p>
+                        <p class="sold-count">0 Terjual</p>
+                    </div>
+                    <button class="buy-btn" data-product-img="images/p (6).webp">Beli Sekarang</button>
+                </div>
+            </div>
+
+              <div class="hidden-product-wrapper">
+                <div class="product-card" data-product-id="7">
+                    <div class="product-image-container">
+                        <img src="images/p (7).webp" alt="Jam Dinding Minimalis"> </div>
+                    <div class="product-info">
+                        <div class="product-title-row">
+                            <h3> Tshirt Pixel Cars</h3>
+                        </div>
+                        <p class="product-description" data-product-desc="Jam dinding dengan desain modern dan bersih, ideal untuk ruang tamu, kamar tidur, atau kantor."> Kaos Double Dec.</p>
+                        <div class="product-meta">
+                            <p class="price" data-product-price="300000">Rp 300.000</p>
+                            <p class="sold-count">0 Terjual</p>
+                        </div>
+                        <button class="buy-btn" data-product-img="images/p (7).webp">Beli Sekarang</button> </div>
+                </div>
+            </div>
+            <div class="hidden-product-wrapper">
+                <div class="product-card" data-product-id="8">
+                    <div class="product-image-container">
+                        <img src="images/p (8).webp" alt="Set Pena Gel Elegan">
+                    </div>
+                    <div class="product-info">
+                        <div class="product-title-row">
+                            <h3>Southwest | cardigan two star knitting knitwear | unisex</h3>
+                        </div>
+                        <p class="product-description" data-product-desc="Set pena gel berkualitas tinggi untuk menulis, dengan tinta halus dan desain elegan, cocok untuk hadiah.">Set Elegan.</p>
+                        <div class="product-meta">
+                            <p class="price" data-product-price="45000">Rp 45.000</p>
+                            <p class="sold-count">0 Terjual</p>
+                        </div>
+                        <button class="buy-btn" data-product-img="images/p (8).webp">Beli Sekarang</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="hidden-product-wrapper">
+                <div class="product-card" data-product-id="9">
+                    <div class="product-image-container">
+                        <img src="images/p (9).webp" alt="Dompet Kulit Slim">
+                    </div>
+                    <div class="product-info">
+                        <div class="product-title-row">
+                            <h3>Celana Bagy Style Korean/h3>
+                        </div>
+                        <p class="product-description" data-product-desc="Dompet kulit asli dengan desain ramping dan banyak slot kartu, praktis dan stylish untuk penggunaan sehari-hari.">Set Retro</p>
+                        <div class="product-meta">
+                            <p class="price" data-product-price="400000">Rp 400.000</p>
+                            <p class="sold-count">0 Terjual</p>
+                        </div>
+                        <button class="buy-btn" data-product-img="images/p (9).webp">Beli Sekarang</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="hidden-product-wrapper">
+                <div class="product-card" data-product-id="10">
+                    <div class="product-image-container">
+                        <img src="images/p (10).webp" alt="Botol Minum Kaca Modern">
+                    </div>
+                    <div class="product-info">
+                        <div class="product-title-row">
+                            <h3>NEVIS Sepatu Pria Jumbo Big Size 39-49 Hugo Cross Sport Sneakers Casual Olahraga Running Lari Full Black Hitam Polos</h3>
+                        </div>
+                        <p class="product-description" data-product-desc="Botol minum kaca dengan desain minimalis dan tutup kedap udara, ramah lingkungan dan mudah dibawa.">Sepatu Modern.</p>
+                        <div class="product-meta">
+                            <p class="price" data-product-price="85000">Rp 85.000</p>
+                            <p class="sold-count">0 Terjual</p>
+                        </div>
+                        <button class="buy-btn" data-product-img="images/p (10).webp">Beli Sekarang</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <div class="load-more-container">
+            <button id="load-more-btn" class="btn">Lihat Lainnya</button>
+        </div>
+
+        <section class="testimonial-section">
+            <div class="container">
+                <p class="testimonial-text">"Gragra Store selalu jadi pilihan utama untuk produk-produk stylish dan berkualitas. Pelayanannya cepat, barangnya sesuai ekspektasi. Sangat direkomendasikan!"</p>
+                <p class="testimonial-author">- Pelanggan Setia Gragra Store -</p>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 Gragra Store. Hak Cipta Dilindungi.</p>
+        </div>
+    </footer>
+
+    <div id="productModal" class="modal">
+        <div class="modal-content">
+            <span class="close-button">&times;</span>
+            <div class="modal-body">
+                <div class="modal-image-container">
+                    <img id="modal-product-image" src="" alt="Product Image">
+                </div>
+                <div class="modal-details">
+                    <h2 id="modal-product-name"></h2>
+                    <p id="modal-product-description"></p>
+                    <p class="modal-product-price"><span id="modal-price-display"></span></p>
+                    <div class="quantity-control">
+                        <label for="quantity">Jumlah:</label>
+                        <div class="quantity-input-group">
+                            <button id="decrease-quantity">-</button>
+                            <input type="number" id="quantity" value="1" min="1">
+                            <button id="increase-quantity">+</button>
+                        </div>
+                    </div>
+                    <button id="add-to-cart-btn" class="btn">Tambah ke Keranjang</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
